@@ -1,12 +1,12 @@
 body {
-    background-color: rgb(240,240,240)
+    background-color: rgb(240,240,240)     /* sets background color */
 }
 
 h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif
+  font-family: Verdana, Geneva, Tahoma, sans-serif   /* changes font for element h1 */
 }
 h1 {
-    color: rgb(227,11,92)
+    color: rgb(227,11,92)                     /* changes color for h1 text */
 }
 
 h1 {
@@ -18,7 +18,7 @@ h1 {
     padding-top: 1em;
 }
 
-h2 {
+h2 {                                        /* adjusts the padding between h1 and h2 - I wanted them close together, but not bang against each other */
     margin: 0;
     padding-top: 8px;
     padding-bottom: 0;
@@ -40,48 +40,48 @@ h3 {
     font-size: 24px;
 }
 
-table {
+table {                                    /* sets table width across screen */
   width: 70%;
 }
 
-td {
+td {                                     /* sets size of table cells */
   width: 100px;
   height: 80px;
 }
 
 p {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;           /* body text set to Times New Roman and enlarged slightly to 17px for readability. */
     font-size: 17px;
     margin-bottom: 2em;
 }
 
-a:link {
+a:link {                                          /* removes underlining from URLs */
   text-decoration: none;
 }
-a:hover {
+a:hover {                                        /* sets URL hover color */
   color: red;
 }
 
-  .topnav {
+  .topnav {                                 /* creates navbar class */
     position: relative;
     top: 50%;
     left: 10%;              /* indents navbar so that top links are approximately center of screen*/
     overflow: hidden;
-    background-color: rgb(240,240,240)
+    background-color: rgb(240,240,240)           /* navbar background set to match the rest of the webpage. */
   }
   
   .topnav a {
     float: left;
-    color: rgb(227,11,92)
+    color: rgb(227,11,92)                          /* sets text color */
     text-align: center;
     padding: 14px 18px;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 20px;                                /* adjusts font size */
+    font-weight: bold;                              /* sets navbar text to bold*/
   }
   
   .topnav a:hover {
-    background-color: rgb(212,175,0);
+    background-color: rgb(212,175,0);             /* sets hover color over navbar links */
     color: black;
   }
   
@@ -90,42 +90,42 @@ a:hover {
     color: white;
   }
 
-.sidebar {
-    height: 800px;
+.sidebar {                                        /* creates sidebar class */
+    height: 800px;                                 /* sets height of sidebar sufficient so that (with stickiness) it will cover entire screen vertically */
     width: 150px;
-    position: -webkit-sticky;
+    position: -webkit-sticky;                     /* makes sidebar "sticky" so that it will be visible when user scrolls down page */
     position: sticky;
     float: left;
-    left: 5;
+    left: 5;                                       /* slight left margin indent so that text is not against edge of screen */
     top: 0;
     padding-top: 60px;
-    background-color: rgb(192,225,189)
+    background-color: rgb(192,225,189)            /* sets navbar color to a green that sets off nicely against the website's gray background. */
     }
 
     .sidebar div {
     padding: 8px;
-    font-size: 16px;
+    font-size: 16px;                                /* sets font for sidebar text */
     display: block;
     }
     
     .body-text {
-    margin-left: 160px;
+    margin-left: 160px;                           /* sets margin for body text, so that sidebar doesn't sit atop body text. */
     font-size: 16px;
     }
 
-    .container {
+    .container {                                
   position: relative;
   width: 50%;
 }
 
-#topline {
+#topline {                                        /* declares properties for "topline" div ID */
   color: rgb(0,0,0);
   font-size: 1.2rem;
   font-weight: bold;
   text-decoration: underline;
 }
 
-img {
+img {                                           /* sets website images to be responsive to devices used*/
     display: block;
     margin-left: auto;
     margin-right: auto;
